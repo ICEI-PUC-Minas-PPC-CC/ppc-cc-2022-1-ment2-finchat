@@ -35,16 +35,16 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 - Isaac Kennedy 
- - Product Owner
- - Desenvolvimento de API
+   - Product Owner
+   - Desenvolvimento de API
 - Matheus Betti
- - Desenvolvimento de fluxo
+   - Desenvolvimento de fluxo
 - Ricardo Henrique Barbosa 
- - Scrum master
- - Desenvolvimento de fluxo
+   - Scrum master
+   - Desenvolvimento de fluxo
 - Elizangela Maria de Freitas
- - UX
- - Desenvolvimento de fluxo
+   - UX
+   - Desenvolvimento de fluxo
 
 ### Processo
 
@@ -56,13 +56,13 @@ Apresente a divisão de papéis entre os membros do grupo.
 As ferramentas empregadas no projeto são:
 
 - Editor de código
- - VS Code: Para desenvolvimento da API de recursos para o bot
+  - VS Code: Para desenvolvimento da API de recursos para o bot
 - Ferramenta de comunicação
- - WhatsApp
+  - WhatsApp
 - Ferramenta de diagramação
- - Figma: Para desenho do fluxo conversacional do bot
+  - Figma: Para desenho do fluxo conversacional do bot
 - Ferramenta de desenvolvimento do chatbot:
- - Blip: Para desenvolvimento de todo o fluxo conversacional desenhado no Figma e integração com o Telegram
+  - Blip: Para desenvolvimento de todo o fluxo conversacional desenhado no Figma e integração com o Telegram
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
