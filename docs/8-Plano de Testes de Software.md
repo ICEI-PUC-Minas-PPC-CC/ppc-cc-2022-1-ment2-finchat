@@ -6,14 +6,55 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
  
-## Ferramentas de Testes (Opcional)
+## Feature: REGISTRAR NOME
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+### Passo-a-passo
+- Iniciar interação
+- Informar o nome 
+
+### Resultado esperado
+- Validar se o bot responde com o nome informado
+
+
+
+## Feature: REGISTRAR GASTO
+
+### Passo-a-passo
+- Iniciar interação
+- Informar o nome
+- Escolher opção Registrar Gasto
+- Digitar o Valor do Gasto   
+- Digitar com que Gastou (Ex: Salgado / Comida)
+- Digitar a sua Categoria (Ex: Alimentação)
+
+### Resultado esperado
+- Validar se o bot responde com o nome informado
+- Validar se o bot responde com gasto informado
+- Validar se o bot responde com o que foi utilizado o gasto informado
+- Validar se o bot responde com a categoria
+
+
+
+## Feature: CONSULTA LISTA DE GASTOS
+
+### Passo-a-passo
+- Rigistrar 3 gastos de categorias diferentes
+- Escolher a opção Consulta de Gastos
+
+
+### Resultado esperado
+- Validar se o bot responde com os gastos registrados
+
+
+
+## Feature: CONSULTA LISTA DE GASTOS
+
+### Passo-a-passo
+- Rigistrar 3 gastos de categorias diferentes
+- Registrar registrar mais 5 gastos de mesma categoria
+- Escolher a opção Consulta de Gastos
+
+
+### Resultado esperado
+- Validar se o bot responde com os gastos registrados
+- Validar se o bot faz a somatoria dos gastos por categoria
